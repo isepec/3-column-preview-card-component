@@ -5,7 +5,7 @@
     --clr-prim-2: hsl(31, 77%, 52%);
 
     --clr-neutral-bg: hsl(0, 0%, 95%); /* background, headings, buttons */
-    --clr-neutral-p: hsla(0, 0%, 100%, 0.6); /* paragraphs */
+    --clr-neutral-p: hsla(0, 0%, 100%, 0.75); /* paragraphs */
 }
 
 * {
