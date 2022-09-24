@@ -16,6 +16,7 @@
 html, body {
     height: 100%;
     font-family: 'Lexend Deca', sans-serif;
+    background: var(--clr-neutral-bg);
 }
 
 img {
