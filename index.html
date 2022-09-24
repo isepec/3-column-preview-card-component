@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <title>isepec | Frontend Mentor</title>
+    <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  </head>
+  
+  <body>
+    
+    <main>
+
+      <h1 style="position: absolute; opacity: 0;">h1 Heading</h1> <!-- I put this here to emphasise that, for accessibility reasons, it's the best practice to start the main content of a web page with a level 1 heading,
+      but this project doesn't have that – it does have three titles, but those must be of a lower hierarchical level than h1 (because there must be only one h1 per page). --> 
+
+      <!-- Card container -->
+      <div class="container">
+
+        <!-- Card: Sedans -->
+        <div class="card card--sedans">
+          <img class="card__icon" src="images/icon-sedans.svg" alt="">
+          <h2 class="card__title">Sedans</h2>
+          <p class="card__description">
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <a class="card__btn card--sedans" href="#">Learn More</a>
+        </div> <!-- /Card: Sedans -->
+
+        <!-- Card: SUVs -->
+        <div class="card card--suvs">
+          <img class="card__icon" src="images/icon-suvs.svg" alt="">
+          <h2 class="card__title">SUVs</h2>
+          <p class="card__description">
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
+          </p>
+          <a class="card__btn card--suvs" href="#">Learn More</a>
+        </div> <!-- /Card: SUVs -->
+
+        <!-- Card: Luxury -->
+        <div class="card card--luxury">
+          <img class="card__icon" src="images/icon-luxury.svg" alt="">
+          <h2 class="card__title">Luxury</h2>
+          <p class="card__description">
+            Cruise in the best car brands without the bloated prices.
+            Enjoy the enhanced comfort of a luxury rental and arrive in style.
+          </p>
+          <a class="card__btn card--luxury" href="#">Learn More</a>
+        </div> <!-- /Card: Luxury -->
+
+      </div> <!-- /Card container -->
+
+    </main>
+
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      <br>Coded and spiced up by <a href="https://www.frontendmentor.io/profile/isepec" target="_blank">isepec</a>.
+    </footer>
+
+  </body>
+
+</html>
